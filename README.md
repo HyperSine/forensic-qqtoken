@@ -107,17 +107,17 @@ __要求条件：__
    /data/data/com.tencent.token/databases/mobiletoken.db: 1 file pulled. 0.9 MB/s (13312 bytes in 0.013s)
    ```
 
-4. 使用 `decrypt_database.py` 解密 `mobiletoken.db`：
+4. 使用 `decrypt-database.py` 解密 `mobiletoken.db`：
 
    ```
    Usage:
-       ./decrypt_database.py <mobiletoken.db的路径>
+       ./decrypt-database.py <mobiletoken.db的路径>
    ```
 
    例如：
 
    ```console
-   $ ./decrypt_database.py ./mobiletoken.db
+   $ ./decrypt-database.py ./mobiletoken.db
    ```
 
 5. 查看加密的 `secret`：
